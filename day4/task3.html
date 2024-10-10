@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        .c1,.c2,.c3,.c4{
+            border:2px solid black;
+            width:55px;
+            padding:10px;
+            text-align: center;
+        }
+        div{
+            padding:5px
+        }
+        .div1{
+            border: 2px solid black;
+            width:90px;
+            text-align: center;
+            padding: 10px;
+        }
+        .main{
+            display: none;
+            padding:10px 0px 0px 70px ;
+        }
+        #id1{
+            padding: 20px 0px 0px 70px;
+        }
+        img:hover~.main {
+            display: block;
+        }
+        img:focus{
+            outline:none;
+
+        }
+        /* #id1{
+            border: 2px solid;
+        } */
+    </style>
+</head>
+<body>
+    <div id="id1">
+        <img src="menu.png" width="70px" alt="">
+        <div class="main">
+            <div class="div1">
+                <div>
+                    <p class="c1">Home</p>
+                </div>
+                <div>
+                    <p class="c2">About</p>
+                </div>
+                <div>
+                    <p class="c3">Services</p>
+                </div>
+                <div>
+                    <p class="c4">Contact</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

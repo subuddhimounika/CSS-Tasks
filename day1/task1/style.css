@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(173, 216, 112);
+}
+
+.head{
+    color:blue;
+}
+.sec1{
+    background-color: #EA7186;
+    font-family: 'Times New Roman';
+}
+
+.sec2{
+    background-color: #F2C76E;
+}
+
+.sec3{
+    background-color: #7A77B9;
+}
+
+.red{
+    background-color: rgb(253, 7, 7);
+}
+
+table{
+    background-color: white;
+}
+
+footer{
+    background-color: #BD9DEA;
+}

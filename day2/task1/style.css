@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+}
+
+.a1{
+    color:white;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.ele1a,.ele1b,.ele2a,.ele2b,.ele3a,.ele3b,.ele4a,.ele4b,.ele8a,.ele8b,.ele9a,.ele9b{
+    display: inline-block;
+    padding:10px 65px 45px; 
+    width:30%;
+    height:210px;
+    border-radius: 8px;
+}
+
+.ele5a,.ele5b,.ele5c,.ele5d,.ele6a,.ele6b,.ele6c,.ele6d,.ele7a,.ele7b,.ele7c,.ele7d{
+    display: inline-block;
+    padding:11px 65px 30px; 
+    width:8%;
+    height:60px;
+    border-radius: 8px;
+}
+
+.php,.jquery,.java,.ch,.w3,.boot{
+    /* padding:12px 17px 12px 45px; */
+    padding:12px 0px;
+    text-align: center;
+    border-radius:30px;
+    border-style: solid;
+    background-color: black;
+    color:white;
+    width:40%; 
+    margin:0px auto;
+
+}
+.head1a,.head1b,.head2a,.head2b,.head3a,.head3b,.head4a,.head4b,.head5a,.head5b,.head5c,.head5d,.head6a,.head6b,.head6c,.head6d,.head7a,.head7b,.head7c,.head7d,.head8a,.head8b,.head9a,.head9b{
+    text-align: center;
+    padding:30px 0px;
+}
+.para1a,.para1b,.para2a,.para2b,.para3a,.para3b{
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* #php,#jquery{
+    text-align: center;
+    margin:0 auto !important;
+} */
+/* For php and jquery */
+
+/* for php */
+
+.div1,.div2,.div3,.div4,.div5,.div6,.div7,.div8,.div9{
+    padding:50px 10px 5px; 
+    background-color: black;
+}
+.php{
+    margin:0px auto;
+}
+.ele1a{
+    background-color:pink;
+    margin-left:100px;    
+} 
+
+
+/* for jquery */
+
+ .head1b{
+    padding: 40px 140px;
+} 
+.ele1b{
+    background-color:rgb(230, 230, 109);
+    margin:20px 70px;   
+} 
+
+/* 2nd section */
+
+/* for java */
+ .java{
+    width:35%; 
+    
+}  
+.ele2a{
+    background-color:rgb(209, 204, 192);
+    margin-left:100px;    
+} 
+
+/* for C++ */
+.ele2b{
+    display: inline-block;
+    background-color:rgb(193, 215, 193);
+    margin:20px 70px;      
+} 
+
+/* 3rd row */
+
+/* w3.css */
+.ele3a{
+    background-color:rgb(155, 190, 206);
+    margin-left:100px;     
+} 
+
+/* Bootstrap */
+.ele3b{
+    background-color:rgb(192, 192, 175);
+    margin:20px 70px;   
+} 
+
+/* 4th row */
+
+/* C */
+.ele4a{
+    background-color:pink;
+    height:60px;
+    margin-left:100px; 
+} 
+
+/* C# */
+.ele4b{
+    background-color:rgb(220, 220, 110);
+    height:60px;
+    margin:20px 70px;   
+} 
+
+/* 5th row */
+
+/* R */
+.ele5a{
+    background-color:rgb(196, 185, 185);
+    margin-left: 100px  
+} 
+
+/* Kotlin */
+.ele5b{
+    background-color:rgb(176, 195, 176);
+    margin-left:60px;
+} 
+
+/* Node.js */
+
+.head5c{
+    /* padding: 20px 20px; */
+}
+
+.ele5c{
+    background-color:rgb(113, 176, 173);
+    margin-left:70px; 
+}
+
+/* React */
+.ele5d{
+    background-color:pink;
+    padding:11px 65px 30px;
+    margin-left:60px;
+}
+
+/* 6th row */
+
+/* JSON */
+.ele6a{
+    background-color:rgb(204, 204, 114);
+    margin-left: 100px  
+} 
+
+/* Vue */
+.ele6b{
+    background-color:rgb(196, 185, 185);
+    margin-left:60px;
+} 
+
+/* MySQL */
+.ele6c{
+    background-color:rgb(176, 195, 176);
+    margin-left:70px; 
+} 
+
+/* XML */
+.ele6d{
+    background-color:rgb(113, 176, 173);
+    margin-left:60px;
+}
+
+/* 7th row */
+
+/* Sass */
+.ele7a{
+    background-color:pink;
+    margin-left: 100px  
+} 
+
+/* Icons */
+.ele7b{
+    /* display: inline-block; */
+    background-color:rgb(204, 204, 114);
+    margin-left:60px;
+} 
+
+/* RWD */
+.ele7c{
+    background-color:rgb(196, 185, 185);
+    margin-left:70px; 
+}
+
+/* Graphics */
+.ele7d{
+    background-color:rgb(176, 195, 176);
+    margin-left:60px;
+}
+
+
+/* 8th row */
+
+/* Excel */
+.ele8a{
+    background-color:rgb(113, 176, 173);
+    height:60px;
+    margin-left:100px; 
+} 
+
+/* DSA - Data Structures and Algorithms */
+.ele8b{
+    background-color:rgb(204, 204, 114);
+    height:60px;
+    margin:20px 70px;
+} 
+
+/* 9th row */
+
+/* Machine Learning */
+.ele9a{
+    background-color:pink;
+    height:60px;
+    margin-left:100px; 
+} 
+
+/* Artificial Intelligence */
+.ele9b{
+    background-color:rgb(196, 185, 185);
+    height:60px;
+    margin:20px 70px;   
+} 

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1st method */
+          /* .container{
+            display:grid;
+            grid-template-columns:100px 100px 100px;
+            gap:20px;
+            grid-template-rows:40px 40px 80px 70px 40px
+          }
+          .container div{
+            border:2px solid red;
+          }
+          .ele1{
+            grid-column:1/4;
+          }
+          .ele2{
+            grid-column: 1/4;;
+          }
+          .ele3{
+            grid-column: 1/3;
+          }
+          .ele4{
+            grid-row:3/5;
+            grid-column-start:3;
+          }
+          .ele5{
+            grid-column:1/3;
+          }
+          .ele6{
+            grid-column:1/4;
+          }  */
+        .container{
+            display:grid;
+            grid-template-areas:
+            "head head head"
+            "nav nav nav"
+            "section section aside"
+            "arti arti aside"
+            "foot foot foot";
+        }
+        .container div{
+            border:2px solid red;
+            padding:5px;
+        }
+        .head{
+            grid-area: head;
+        }
+        .nav{
+            grid-area:nav
+        }
+        .sec{
+            grid-area:section
+        }
+        .as{
+            grid-area:aside
+        }
+        .art{
+            grid-area:arti
+        }
+        .foot{
+            grid-area:foot
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- 1st method -->
+    <!-- <div class="container">
+        <div class="ele1">header</div>
+        <div class="ele2">nav</div>
+        <div class="ele3">secton</div>
+        <div class="ele4">aside</div>
+        <div class="ele5">article</div>
+        <div class="ele6">footer</div>
+    </div> -->
+
+
+
+    <!-- 2nd method -->
+
+    <div class="container">
+        <div class="head">header</div>
+        <div class="nav">nav</div>
+        <div class="sec">section</div>
+        <div class="as">aside</div>
+        <div class="art">article</div>
+        <div class="foot">footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.main{
+    padding-top:100px;
+    padding-left:300px;
+}
+/* img{
+    width:200px;
+} */
+
+.img1{
+    border:5px solid black;
+    width:200px;
+    
+}
+
+
+div{
+    display:inline-block;
+}
+
+h3{
+    display: inline;
+    padding-left:50px;
+}
+.head{
+    padding: 50px 30px;
+}
+span{
+    padding-left: 50px;
+}
+
+.ticket{
+    border:3px solid black;
+    border-radius:30px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: black;
+    color:white;
+}
+
+.div1{
+    padding-right:50px;
+}
+
+.buy{
+    padding:10px 35px;
+}
+
+.span2{
+    padding:40px;
+}
+.span3{
+    padding-left:25px;
+}
+
+
+ .im1:hover{
+    background-color: blueviolet;
+    transform: scale(1.1) ;
+} 
+
+

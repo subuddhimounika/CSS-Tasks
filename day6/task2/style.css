@@ -1,0 +1,10 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.div2{
+    border:5px solid black;
+    width: 15%;
+    height:60vh;
+    border-radius: 15px;
+}

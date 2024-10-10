@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .container{
+            position:relative;
+            border:3px solid black;
+            /* background-color: rgb(236, 224, 201); */
+            background-image: url(assests/what.jpeg);
+            background-size: cover;
+            border-radius: 10px;
+            width:20%;
+            height:55vh;
+            overflow:auto;
+            scrollbar-width: none;
+        } 
+        .main{
+            padding:100px;
+        }
+        nav{
+            background-color: green;
+            border-radius:7px 7px 0px 0px;
+            padding:10px;
+            position: relative;
+            left: 0px;
+            height: 4vh;
+        }
+        .nav{
+            position: sticky;
+            top:0px; 
+            width:100%;
+        }
+       ul,li{
+        display:inline-block;
+       }
+       .ul1{
+        position: absolute;
+        left: 0px;
+       }
+       .ul2{
+        position:absolute;
+        right:0px;
+       }
+      
+       li{
+        padding:5px;
+       }
+       .lock{
+        background-color: rgb(223, 203, 164);
+        color:black;
+        font-size: 10px;
+        /* padding:5px 10px; */
+        margin:5px 10px;
+       }
+    .p1{
+        text-align:center;
+    } 
+    .center{
+        text-align: center;
+        padding:5px 10px 10px 10px;
+        position:sticky;
+        top:50px;
+    }
+    /* .center1{
+        text-align:center;
+        padding:5px 10px 10px 10px;
+        position:sticky;
+        top:50px;
+    } */
+    .s1{
+        background-color: rgb(214, 208, 208);
+        padding:5px 10px;
+        font-size:12px;
+        border-radius: 6px;
+    }
+
+    .left{
+        display: inline-block;
+        text-align: left;
+        font-size: 15px;
+        padding:4px;
+        margin:0px 40px 0px 7px;
+        background-color:white;
+        
+    }
+    .right{
+        /* display: inline-block; */
+        /* position:absolute;
+        right:0px; */
+        background-color: rgb(196, 236, 196);
+        text-align: right;
+        font-size: 15px;
+        padding:2px;
+        margin:12px 7px 12px 0px;
+    } 
+
+    .search{
+        position: sticky;
+        bottom: 0px;
+        align-items: center;
+        padding:3px 5px;
+        background-color: transparent;
+        /* outline: auto; */
+        width:100%;   
+    }
+    input{
+        border:1px solid white;
+        width:50%;
+        border:none;
+        outline: none;
+        background-color: transparent;
+    }
+    .emoji i{
+        display: inline-block;
+        padding: 1px;
+    }
+    input,li,.emoji,.mic{
+        display: inline-block;
+    }
+    .mic{
+        border:2px solid green;
+        border-radius:500px;
+        background-color: green;
+        padding:5px;
+    }
+    input,li,.emoji{
+        /* background-color: white; */
+    }
+   .sec{
+    background-color:white;
+    padding:0px;
+    position: sticky;
+    bottom:0px;
+   } 
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="nav">
+                <nav>
+                    <div>
+                        <ul class="ul1">
+                            <li><i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #fafcff;"></i></li>
+                            <li><i class="fa-regular fa-user" style="color: #f9fafb;"></i></li>
+                            <li>Mouni</li>
+                        </ul>
+                        <ul class="ul2">
+                            <li><i class="fa-solid fa-video" style="color: #fcfcfd;"></i></li>
+                            <li><i class="fa-solid fa-phone" style="color: #fafafa;"></i></li>
+                            <li><i class="fa-solid fa-ellipsis-vertical" style="color: #fafcff;"></i></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <p class="center"><span class="s1">2 June 2022</span></p>
+            <div class="lock">
+                <p class="p1"><i class="fa-solid fa-lock" style="color: orange"></i> Messages and calls are end-to-end encrypted.</p>
+                <p class="p1">No one outside of this chat,not even WhatsApp,can read or listen to them.Tap to learn more</p>
+            </div>
+
+
+
+
+            <div class="left">
+                Yo! What’s up?
+            </div>
+            <div class="right">
+                Hey! Not much, just chilling. You?
+            </div>
+            <div class="left">
+                For sure! What are you thinking of watching?
+            </div>
+            <div class="right">Thinking of checking out that new action flick. Heard it’s pretty sick!</div>
+            <div class="left">Sounds awesome! Let’s do it. What time</div>
+            <div class="right">How about 7 PM? I’ll grab the tickets</div>
+            <div class="left">Perfect! You’re the best. Can’t wait! 🎬</div>
+            <div class="right">Cool, see ya tomorrow</div>
+            <div class="left">Later! 😎</div>
+
+
+
+        
+
+
+            <p class="center"><span class="s1">10 October 2022</span></p>
+        <div class="left">
+            Yo! What’s up?
+        </div>
+        <div class="right">
+            Hey! Not much, just chilling. You?
+        </div>
+        <div class="left">
+            For sure! What are you thinking of watching?
+        </div>
+        <div class="right">Thinking of checking out that new action flick. Heard it’s pretty sick!</div>
+        <div class="left">Sounds awesome! Let’s do it. What time</div>
+        <div class="right">How about 7 PM? I’ll grab the tickets</div>
+        <div class="left">Perfect! You’re the best. Can’t wait! 🎬</div>
+        <div class="right">Cool, see ya tomorrow</div>
+        <div class="left">Later! 😎</div>
+
+
+        <p class="center"><span class="s1">10 December 2022</span></p>
+        <div class="left">
+            Yo! What’s up?
+        </div>
+        <div class="right">
+            Hey! Not much, just chilling. You?
+        </div>
+        <div class="left">
+            For sure! What are you thinking of watching?
+        </div>
+        <div class="right">Thinking of checking out that new action flick. Heard it’s pretty sick!</div>
+        <div class="left">Sounds awesome! Let’s do it. What time</div>
+        <div class="right">How about 7 PM? I’ll grab the tickets</div>
+        <div class="left">Perfect! You’re the best. Can’t wait! 🎬</div>
+        <div class="right">Cool, see ya tomorrow</div>
+        <div class="left">Later! 😎</div>
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+        <section class="sec">
+            <div class="search">
+                <i class="fa-solid fa-face-grin"></i></i> 
+                <input type="text" placeholder="Message" />
+                <div class="emoji">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-solid fa-indian-rupee-sign"></i>
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+            <p class="mic"><i class="fa-solid fa-microphone" style="color: #fcfdfc;"></i></p>
+            </div>
+        </section>
+    
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

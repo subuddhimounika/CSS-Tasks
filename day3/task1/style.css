@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    display: inline-block;
+    border:2px;
+    text-align: center;
+    width:80px;
+    padding:70px 20px;
+    border-radius: 7px;
+    margin:10px;
+    box-shadow:2px 1px 2px 2px grey;
+}
+.div2{
+    padding:10px 300px;
+}
+
+h2{
+    border:2px solid black;
+    width:800px;
+    text-align:center;
+    padding:5px 0px;
+    box-shadow:0px 0px 8px 5px brown,1px 1px 5px 8px pink inset; 
+}
+.div1{
+    padding:50px 270px 40px;
+}
+p:hover{
+    transform:scale(1.1);
+}
+
+/* 1st row 1st */
+.p1{
+    background-color: plum;
+    position: relative;
+}
+.p1::after{
+    content:"Oswald";
+    transition: content 0.3s ease;
+}  
+
+ .p1:hover{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+ 
+/* for 1st row 2nd */
+.p2{
+    background-color: #779FA1;
+    position: relative;
+}
+ .p2::after{
+    content:"Kanit";
+    transition: content 0.3s ease;
+}  
+
+ .p2:hover{
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* 1st row 3rd */
+.p3{
+    background-color: #E0CBA8;
+    position: relative;
+}
+.p3::after{
+    content:"Sofadi One";
+    transition: content 0.3s ease;
+}
+
+ .p3:hover::after{
+    content:"Sofadi One";
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 1st row 4th */
+.p4{
+    background-color: #FF6542;
+    position: relative;
+}
+.p4::after{
+    content:"Danfo";
+    transition: content 0.3s ease;
+}
+
+ .p4:hover::after{
+    content:"Danfo";
+    font-family: "Danfo", serif;  
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2nd row 5th */
+.p5{
+    background-color: palevioletred;
+    position: relative;
+}
+.p5::after{
+    content:"Great Vibes";
+    transition: content 0.3s ease;
+}
+ .p5:hover::after{
+    content:"Great Vibes";
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2nd row 1st */
+.p6{
+    background-color: #FF6978;
+    position: relative;
+}
+.p6::after{
+    content:"Playball";
+    transition: content 0.3s ease;
+}
+ .p6:hover::after{
+    content:"Playball";
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2nd row 2nd */
+.p7{
+    background-color: #FFFCF9;
+    position: relative;
+}
+.p7::after{
+    content:"Lobster";
+    transition: content 0.3s ease;
+}
+ .p7:hover::after{
+    content:"Lobster";
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2nd row 3rd */
+.p8{
+    background-color: #B1EDE8;
+    position: relative;
+}
+.p8::after{
+    content:"Rowdies";
+    transition: content 0.3s ease;
+}
+ .p8:hover::after{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2nd row 4th */
+.p9{
+    background-color: #6D435A;
+    position: relative;
+}
+.p9::after{
+    content:"Pacifico";
+    transition: content 0.3s ease;
+}
+ .p9:hover::after{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 2nd row 5th */
+.p10{
+    background-color: #6F732F;
+    position: relative;
+}
+.p10::after{
+    content:"Micro 5";
+    transition: content 0.3s ease;
+}
+ .p10:hover::after{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  
+}
+

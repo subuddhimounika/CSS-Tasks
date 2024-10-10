@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS Positioning */
+        /* 1.Static - top,right,bottom,left are not applied.
+                      normal flow with the document.
+           2.Relative - either top and left or bottom and right are applied.
+                        top and left have high priority.
+                        later bottom and right have.
+                        normal flow with the document.
+            3. Absolute -  top and left have high priority.
+                           out of flow to the document.
+            */
+
+        /* 1.Static */
+        /* h1{
+            background-color: aqua;
+            position:static;
+            top:100px
+        }
+        h2{
+            background-color: aquamarine;
+        } */
+
+        *{
+            margin:0px;
+        }
+        .container{
+            border:2px solid red;
+            height:70vh;
+            margin:50px;
+            position:relative;
+            
+        }
+        img{
+            width:125px;
+            height:125px;
+        }
+        /* 2.Relative */
+        /* #img2{
+            position:relative;
+            top:50px;
+            left:100px;
+            bottom:100px;
+            right:100px
+        } */
+        /* 3.Absolute */
+        /* #img2{
+            position: absolute;
+            z-index:-1;
+            right:-60px;
+            bottom:-50px;
+        }
+        #img3{
+            position:fixed;
+            left:0px;
+            bottom:0px;
+        }
+        #img1{
+            position:absolute;
+            right:-50px;
+            top:-50px;
+        }
+        nav{
+            background-color: brown;
+            position:fixed;
+            width:100%;
+            top:0px;
+        } */
+
+        nav{
+            /* background-color: blue; */
+            /* position:sticky;
+            top:0%; */
+            width:100%;
+            height:100vh;
+        }
+        li{
+            display: inline-block;
+            padding:20px;
+            color:white;
+            margin:20px 0px;
+        }
+        ul{
+            background-color: blue;
+            position: sticky;
+            top:0%;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- static -->
+     <!-- <h1>heading</h1>
+     <h2>heading</h2> -->
+<!-- <nav> <h2>some content having in nav</h2></nav>
+     <div class="container">
+        <img src="nature.jpeg" alt="" id="img1">
+        <img src="bridge.jpg" alt="" id="img2">
+        <img src="ocean.jpg" alt="" id="img3">
+     </div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia asperiores quasi est? Aspernatur ex repellat eius error repudiandae id, impedit velit quia iste? Fuga odio esse placeat dolorum quam!
+     Laudantium tenetur qui pariatur, unde eaque dignissimos necessitatibus eum ipsum placeat hic maiores alias saepe blanditiis officiis facere libero! Soluta saepe sit minima modi ad odit earum voluptatum expedita nobis.
+     Dolor dolorem veniam, maiores ipsum esse facilis ab fugiat numquam, molestias ducimus illo dolore fugit architecto sed? Neque aliquam ab soluta asperiores voluptatibus, fugit, ullam pariatur molestiae maxime facere eius.</p> -->
+<h1>CSSSS</h1>
+<h1>CSSSS</h1>
+
+
+     <nav>
+        <ul>
+            <li>content</li>
+            <li>content</li>
+            <li>content</li>
+            <li>content</li>
+            <li>content</li>
+        </ul>
+     </nav>
+
+     <h1>About</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eaque minima inventore perspiciatis expedita, atque cumque eligendi officiis corrupti obcaecati dolorem veritatis, assumenda facilis a laboriosam voluptatem aliquid perferendis quidem.
+     Eaque numquam at a, repudiandae enim reprehenderit, incidunt, praesentium beatae ipsum ratione ab quae ipsam quos corrupti error illum. Minus molestias id itaque culpa atque est maxime exercitationem! Aliquid, atque?</p>
+     <h1>Services</h1>
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, quasi totam. Ratione sed tempora cum explicabo sunt rerum est reiciendis vel quaerat dolore facere aspernatur vero quibusdam, maxime voluptate labore?
+     Veniam, voluptate perspiciatis. Itaque laudantium sint dolore sunt numquam minima veritatis voluptatibus officia recusandae sed quod fugit quisquam dolores architecto pariatur dolorum aut, doloribus ab iusto cupiditate in fuga maiores!</p>
+     <h1>Contact</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure commodi, placeat voluptatem voluptate similique nostrum ut quae repudiandae aut tenetur beatae fugit suscipit aspernatur, tempore, qui sint odio. Accusantium, quo!
+     Veniam laboriosam illo tempore labore provident! Nemo corporis, rem amet eos laborum, quidem esse, illum eligendi nam repellat nesciunt aspernatur iste quibusdam. Temporibus sequi consequuntur aliquam, veritatis dicta tempora? Illum?</p>
+     <h1>Why us</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vitae, dignissimos eveniet sed itaque accusantium suscipit voluptatem blanditiis non provident laborum distinctio voluptatum exercitationem sequi, velit odio delectus error amet.
+     Architecto optio magnam inventore eos obcaecati neque veniam officiis excepturi, alias necessitatibus! Alias, sit, doloremque accusamus ex earum dolores quis aliquid ut eligendi distinctio labore illo sunt ipsa temporibus! Dolorem.</p>
+     <h1>Brand</h1>
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quam consectetur dolores laudantium! Reprehenderit officia quo vitae sequi eos repellat quisquam perferendis aspernatur recusandae numquam, ullam quia quaerat maxime cumque?
+     Natus, eius libero laboriosam expedita laudantium sed id, nemo, aliquam accusamus facilis dolorum fuga provident excepturi inventore voluptatibus incidunt consequatur. Cumque nobis excepturi ipsum temporibus aliquam quasi tenetur dolor vitae.</p>
+    <h1>location</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti dolorem beatae? Laborum architecto sint corporis minima enim, ea commodi cumque minus facere quisquam maxime, animi nisi perferendis. Alias, fugit.
+    Quis illum quos suscipit ab esse totam molestiae assumenda ullam quibusdam cumque expedita quas ipsum corporis quaerat ducimus eum exercitationem voluptatibus, minus labore at nobis, aliquid, amet praesentium. Rem, eum?
+    Nisi, atque quae. Quaerat alias officia quasi quia, illo laboriosam quisquam accusantium expedita a minus ut aliquid iusto! Assumenda minus eos quis libero sit vero incidunt iure tempore molestias corrupti!</p>
+</body>
+</html>
