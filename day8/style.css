@@ -1,0 +1,171 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.ele1{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:1.2% 1.5%;
+    letter-spacing: 3px;
+    background-color: white;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    /* border:2px solid; */
+}
+.ele1a>a,.ele1b a{
+    color:black;
+    font-size: 1rem;
+    /* border:2px solid red; */
+}
+.ele1b{
+    width:20rem;
+    /* border: 2px solid green; */
+}
+.ele1b a{
+    padding:0% 6%;
+}
+
+
+
+/* 2nd section */
+.ele2{
+    background-image: url(assets/hamburger.jpg);
+    width:100%;
+    height:92vh;
+}
+.ele2 p{
+    display: flex;
+    align-items: flex-end;
+    font-size: 2.2rem;
+    letter-spacing: 4px;
+    opacity:0.6;
+    height:90vh;
+    padding-left:2%
+
+}
+
+
+/* 3rd section */
+/* About Catering */
+.ele3{
+    display: flex;
+    margin:5% 15% 7% 15%;
+    column-gap: 5%;
+    /* border: 2px solid; */
+}
+.ele3>img{
+    height:40rem;
+    flex-basis: 50%;
+    /* border: 2px solid red; */
+}
+.ele3a>h1{
+    font-size: 2.2rem;
+    font-weight: 200;
+    letter-spacing: 3.5px;
+    text-align: center;
+    padding:5% 0% 10% 0%;
+}
+.ele3a p:nth-child(2){
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.ele3a p:nth-child(3),.ele3a p:nth-child(4){
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+.ele3a p:nth-child(3){
+    padding-bottom: 5%;
+}
+.ele3a p:nth-child(4){
+    opacity: 0.6;
+}
+
+
+.hr{
+    margin:0% 12%;
+    opacity:0.4;
+}
+
+/* 4th Section */
+/* Our Menu */
+.ele4{
+    display: flex;
+    flex-basis: 50%;
+    margin:6% 15% 5% 15%;
+    column-gap: 13%;
+    /* border: 2px solid; */
+}
+.ele4a h1{
+    font-size: 2.2rem;
+    font-weight: 200;
+    letter-spacing: 3.5px;
+    text-align: center;
+    padding:5% 0% 10% 0%;
+}
+.p1{
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding-bottom: 5%;  
+}
+.p2{
+    font-size: 0.95rem;
+    opacity:0.6; 
+    padding-bottom: 12%; 
+}
+
+
+/* 5th Section */
+/* Contact */
+.ele5{
+    margin:6% 14.5%;
+}
+.ele5>h1{
+    font-size: 2.2rem;
+    font-weight: 200;
+    letter-spacing: 3.5px;
+    padding:5% 0%;
+}
+.ele5 p{
+    font-size: 0.95rem;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-bottom: 2.5%;  
+}
+.ele5 h3{
+    color:rgb(98, 152, 152);
+    padding-bottom:2.5%;
+}
+input{
+    width:100%;
+    border:none;
+    padding:2% 1%;
+}
+input[placeholder]{
+    font-size: 0.9rem;
+}
+
+.ele5 button{
+    font-family: Times New Roman;
+    padding:1%;
+    background-color:whitesmoke;
+    border:none;
+    outline:none;
+    margin-top:1%;
+}
+
+
+/* footer */
+.ele6{
+    text-align: center;
+    background-color: whitesmoke;
+    padding:3%;
+}
