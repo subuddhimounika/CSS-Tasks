@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .ele1{
+            display: flex;
+            column-gap: 2%;
+            width:100%;
+            height:250px;
+            align-items: end;
+            justify-content: center;
+            margin-top:5%;
+        }
+        .ele1 p{
+            width:1%;
+            height:1rem;
+            background-color: rgb(246, 88, 88);
+            border-radius:50%;
+            padding:1%;
+        }
+        .ele1 p:nth-child(1){
+            animation-name:bgchange;
+            animation-duration:1s;
+            animation-direction:alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        .ele1 p:nth-child(2){
+            animation-name:bgchange;
+            animation-duration:1s;
+            animation-delay: 0.3s;
+            animation-direction:alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        .ele1 p:nth-child(3){
+            animation-name:bgchange;
+            animation-duration:1s;
+            animation-delay: 0.6s;
+            animation-direction:alternate;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+        }
+        @keyframes bgchange{
+            from{
+                transform:translateY(0px);
+            }
+            to{
+                transform:translateY(-150px);
+            }
+        }
+
+
+
+        .ele2{
+            display: flex;
+            column-gap: 0.5%;
+            width:100%;
+            align-items: end;
+            justify-content: center;
+            margin-top:2%;
+        }
+        .ele2 p{
+            background-color: rgb(169, 200, 169);
+            border-radius:50%;
+            padding:0.5%;
+        }
+        .ele2 p:nth-child(1){
+            animation-name:move;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        .ele2 p:nth-child(2){
+            animation-name:move;
+            animation-duration: 2s;
+            animation-delay: 0.3s;
+            animation-iteration-count: infinite;
+        }
+        .ele2 p:nth-child(3){
+            animation-name:move;
+            animation-duration: 2s;
+            animation-delay: 0.6s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move{
+            0%{
+                transform:scale(1.2);
+                background-color:green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ele1">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <div class="ele2">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+</body>
+</html>

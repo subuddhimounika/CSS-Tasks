@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            position: relative;
+            text-align: center;
+            margin-top: 5%;
+        }
+        img{
+            display: block;
+            width:25%;
+            transition: transform 2s ease;
+            margin: 8% auto;
+        }
+        button{
+            padding:0.5% 1%;
+            background-color: orange;
+            outline: none;
+            margin: 1%;
+        }
+        .div1 button:first-child:hover~img{
+            transform: translate(100px,100px);
+        }
+        .div1 button:nth-child(2):hover~img{
+            transform: rotate(360deg);
+        }
+        .div1 button:nth-child(3):hover~img{
+            transform: scale(1.5);
+        }
+        .div1 button:nth-child(4):hover~img{
+            transform: skew(20deg,15deg);
+        }
+    </style>
+        
+</head>
+<body>
+    <div class="div1">
+        <button>Translate</button>
+        <button>Rotate</button>
+        <button>Scale</button>
+        <button>Skew</button>
+        <img src="https://jooinn.com/images/lonely-tree-reflection-3.jpg" alt="">
+    </div>
+</body>
+</html>
